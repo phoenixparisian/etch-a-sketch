@@ -1,0 +1,64 @@
+:root {
+  --red: rgb(220, 51, 39);
+  --gold: rgb(189, 142, 58);
+  --grey: rgb(241,240,238);
+  --white: rgb(230, 228, 239);
+  --yellow: rgb(251, 235, 79);
+
+
+}
+
+body {
+  background-color: var(--yellow);
+}
+
+
+
+
+#container {
+  background-color: var(--red);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  width: 800px;
+  height: 800px;
+  margin: 8px auto;
+}
+
+h1 {
+  color: var(--gold);
+  font-style: italic;
+}
+#grid {
+  background-color: var(--grey);
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 64px;
+}
+
+.cell {
+  
+  box-sizing: border-box;
+}
+
+#knob-container{
+  display: flex;
+  justify-content: space-between; /* Positions the knobs at the ends */
+  margin-bottom: 20px;
+  width: 100%;
+
+
+}
+
+.knob {
+  background-color: var(--white);
+  width: 128px;
+  height: 128px;
+  margin: 0 64px;
+  border-radius: 50%;
+
+
+}
